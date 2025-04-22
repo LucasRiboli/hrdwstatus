@@ -71,10 +71,10 @@ HRDWSTATUS can be deployed in an Incus container for testing or production use:
 HRDWSTATUS/
 ├── cmd/
 │   └── main.go       # Main application entry point
+├── deamon/
+│   └── hrdwstsd.service # Systemd service file for running as daemon
 ├── go.mod            # Go module definition
 ├── go.sum            # Go module checksums
-├── hrdwsts           # Compiled binary
-├── hrdwstsd.service  # Systemd service file for running as daemon
 └── readme.md         # This file
 ```
 
