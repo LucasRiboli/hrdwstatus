@@ -1,0 +1,12 @@
+[Unit]
+Description=CPU Temperature Monitoring Daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=exec/hrdwsts
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
