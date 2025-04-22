@@ -1,0 +1,13 @@
+sensors:
+  k10temp:
+    enabled: true
+
+thresholds:
+  low: 25
+  high: 60
+
+# to implement
+logging:
+  level: "info"
+  output: "stdout"
+  file_path: "/var/log/hrdwstatus.log"
